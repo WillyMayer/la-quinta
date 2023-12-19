@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema
 
-const blodSchema = new Schema ({
+const blogSchema = new Schema ({
     title: {
         type: String,
         required: true
